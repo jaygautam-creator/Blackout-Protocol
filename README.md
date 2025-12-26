@@ -35,7 +35,7 @@ Offline Mesh → Gateway Device → Firebase Realtime Database
 
 
 ## Documentation
-Detailed project explanation is available in `/docs/Blackout_Protocol_Overview.pdf`[Untitled document-56.pdf](https://github.com/user-attachments/files/24347442/Untitled.document-56.pdf)
+Detailed project explanation is available in [document.pdf](https://github.com/user-attachments/files/24347442/Untitled.document-56.pdf)
 
 
 ## Disclaimer
