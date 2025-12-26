@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- SOS Symbol -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M54,20c18.8,0 34,15.2 34,34s-15.2,34 -34,34s-34,-15.2 -34,-34S35.2,20 54,20z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,40v28h20V40H44zM48,44h12v4H48V44zM48,52h12v4H48V52zM48,60h12v4H48V60z" />
+</vector>

@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.BlackoutProtocol" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/card_dark</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorSecondaryVariant">@color/accent_blue</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/primary_darker</item>
+        <item name="android:navigationBarColor">@color/primary_darker</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Material Components -->
+        <item name="materialButtonStyle">@style/Widget.BlackoutProtocol.Button</item>
+        <item name="cardViewStyle">@style/Widget.BlackoutProtocol.CardView</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="Widget.BlackoutProtocol.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <!-- Custom CardView Style -->
+    <style name="Widget.BlackoutProtocol.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Full Screen Theme -->
+    <style name="Theme.BlackoutProtocol.FullScreen" parent="Theme.BlackoutProtocol">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- ... existing themes ... -->
+
+    <!-- Add this style -->
+    <style name="Widget.BlackoutProtocol" parent="android:Theme.DeviceDefault.Light">
+        <!-- Customize your widget attributes here -->
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>

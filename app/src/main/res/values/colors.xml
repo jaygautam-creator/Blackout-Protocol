@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_dark">#0A0A2A</color>
+    <color name="primary_darker">#0A0A0A</color>
+    <color name="card_dark">#1E1E2E</color>
+    <color name="card_darker">#141420</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_blue">#4FC3F7</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FFA500</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- Status Colors -->
+    <color name="status_online">#81C784</color>
+    <color name="status_offline">#FF6B6B</color>
+    <color name="status_warning">#FFA500</color>
+</resources>
