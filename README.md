@@ -33,11 +33,10 @@ phone to phone until one device gains internet access and syncs the data to the 
 ## Architecture
 Offline Mesh → Gateway Device → Firebase Realtime Database
 
-## Screenshots
-See the `/screenshots` folder for app and Firebase screenshots.
 
 ## Documentation
-Detailed project explanation is available in `/docs/Blackout_Protocol_Overview.pdf`
+Detailed project explanation is available in `/docs/Blackout_Protocol_Overview.pdf`[Untitled document-56.pdf](https://github.com/user-attachments/files/24347442/Untitled.document-56.pdf)
+
 
 ## Disclaimer
 This project is a prototype developed for educational and hackathon purposes.
